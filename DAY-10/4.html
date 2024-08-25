@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="v1">
+    <select id="sign">
+        <option>+</option>
+        <option>-</option>
+        <option>/</option>
+        <option>*</option>
+        <option>%</option>
+    </select>
+
+
+    <input type="number" id="v2">
+    <div class="" id="answer"></div>
+    <button type="button" onclick="cal()">click</button>
+
+    
+</body>
+<script>
+    function cal()
+    {
+        var v1=document.getElementById("v1").value;
+        var si=document.getElementById("sign").value;
+        var v2=document.getElementById("v2").value;
+
+    switch(si)
+    {
+        case "+":
+        document.getElementById("answer").innerText=parseInt(v1)+parseInt(v2);
+        break;
+
+        case "-":
+        document.getElementById("answer").innerText=parseInt(v1)-parseInt(v2);
+        break;
+
+
+        case "/":
+        document.getElementById("answer").innerText=parseInt(v1)/parseInt(v2);
+        break;
+
+
+        case "*":
+        document.getElementById("answer").innerText=parseInt(v1)*parseInt(v2);
+        break;
+
+
+        case "%":
+        document.getElementById("answer").innerText=parseInt(v1)%parseInt(v2);
+        break;
+
+    }  
+    }
+
+    
+    
+</script>
+</html>

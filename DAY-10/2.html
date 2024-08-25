@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="vowel">
+    <div class="" id="answer"></div>
+    <button type="button" onclick="vowel()">click</button>
+</body>
+<script>
+    function vowel()
+    {
+        var vowel=document.getElementById("vowel").value;
+
+        switch(vowel)
+        {
+            case "a" :
+            case "e":
+            case "i" :
+            case "o" :
+            case "u" :
+            document.getElementById("answer").innerText="It is vowel";
+            break;
+
+            case "b" :
+            case "c":
+            case "d" :
+            case "f" :
+            case "g" :
+            case "h" :
+            case "j":
+            case "k" :
+            case "l" :
+            case "m" :
+            case "n" :
+            case "p":
+            case "q" :
+            case "r" :
+            case "s" :
+            case "t" :
+            case "v":
+            case "w" :
+            case "x" :
+            case "y" :
+            case "z" :
+            document.getElementById("answer").innerText="It is  consonant ";
+            break;
+
+            default :
+            document.getElementById("answer").innerText="Wrong Alphabet";
+        }
+    }
+</script>
+</html>

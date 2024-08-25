@@ -1,0 +1,1 @@
+// Determine the compound interest for $5000 at 6% compounded annually for 3 years

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" id="sum">
+    <div class="" id="answer"></div>
+    <button onclick="sum()" type="button">check add</button>
+</body>
+<script>
+    function sum() {
+        var sum = document.getElementById("sum").value;
+        var a=1
+        su = 0;
+
+        while (a<=sum) {
+            su += sum % 10; // Add the last digit to sum
+            sum = parseInt(sum / 10); // Remove the last digit
+        }
+        document.getElementById("answer").innerHTML = su;
+    }
+
+
+
+</script>
+
+</html>

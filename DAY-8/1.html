@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var a=parseInt(prompt("enter the income"));
+
+    if(a<=10000)
+    {
+        var gst=(a*5)/100;
+        document.write("the gst charges =" +gst);
+
+        a=a+gst;
+        document.write("the total amount paid =" +a);
+    }
+    else if(a>10000 && a<=50000)
+    {
+        var gst1=(a*10)/100;
+        document.write("the gst charges =" +gst1);
+
+        a=a+gst1;
+        document.write("the total amount paid =" +a);
+
+    }
+    else if(a>50000 && a<=100000)
+    {
+        var gst2=(a*15)/100;
+        document.write("the gst charges =" +gst2);
+
+        a=a+gst2;
+        document.write("the total amount paid =" +a);
+    }
+    else
+    {
+        var gst3=(a*20)/100;
+        document.write("the gst charges =" +gst3);
+
+        a=a+gst3;
+        document.write("the total amount paid =" +a);
+    }
+</script>
+</html>

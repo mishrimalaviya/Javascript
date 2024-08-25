@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number"  id="age" >
+    <div class="" id="ans"> </div>
+    <button onclick="categorize()" type="button">onclick</button>
+</body>
+<script>
+    function categorize()
+    {
+        var a=document.getElementById("age").value;
+
+        if(a<=1)
+        {
+            document.getElementById("ans").innerText="Infant"
+        }
+        else if(a>=1 && a<=12) 
+        {
+            document.getElementById("ans").innerText="Child";
+
+        } 
+        else if(a>=13 && a<=19)
+        {
+            document.getElementById("ans").innerText="Teenagar"
+
+        }
+        else if(a>=20 && a<=64)
+        {
+            document.getElementById("ans").innerText="Adult"
+
+        }
+        else  
+        {
+            document.getElementById("ans").innerText="Senior Citizen"
+
+        }
+    }
+</script>
+</html>

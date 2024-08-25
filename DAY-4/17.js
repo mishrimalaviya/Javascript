@@ -1,0 +1,1 @@
+// Determine the compound interest for $7000 at 5% compounded annually for 2 years

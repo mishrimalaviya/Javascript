@@ -1,0 +1,1 @@
+// Find the compound interest for $3000 at 8% compounded semi-annually for 4 years.

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="age">
+    <div class="" id="answer"></div>
+    <button type="button" onclick="age()">click</button>  
+</body>
+
+<script>
+    function age()
+    {
+  
+        var age=document.getElementById("age").value;
+
+        switch(true)
+        {
+            case age>=0 && age<=12 :
+            document.getElementById("answer").innerText="Child";
+            break;
+
+            case age>=13 && age<=19 :
+            document.getElementById("answer").innerText="Teen";
+            break;
+
+            case age>=20 && age<=59 :
+            document.getElementById("answer").innerText="Adult";
+            break;
+
+            default :
+            document.getElementById("answer").innerText="Senior";
+        }
+
+    }
+</script>
+</html>

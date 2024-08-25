@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="prime">
+    <div class="" id="answer"></div>
+    <button onclick="prime()" type="button">check prime</button>
+</body>
+<script>
+    function prime()
+    {
+        var prime=document.getElementById("prime").value;
+
+        var a=1;
+        var count=0;
+
+        while(a<=prime)
+        {
+            if(prime%a==0)
+            {
+                count++;
+            }
+            a++;
+        }
+        document.getElementById("answer").innerHTML="total prime number"+count;
+
+    }
+</script>
+</html>

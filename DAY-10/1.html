@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="season">
+    <div class="" id="answer"></div>
+    <button type="button" onclick="season()">click</button>
+</body>
+<script>
+
+    function season()
+    {
+        var season=document.getElementById("season").value;
+
+switch(+season)
+{
+    case 4 :
+    case 3 :
+    document.getElementById("answer").innerText="Spring Season";
+    break;
+
+    case 12 :
+    case 1 :
+    case 2 :
+    document.getElementById("answer").innerText="Winter Season";
+    break;
+
+    case 5:
+    case 6:
+    document.getElementById("answer").innerText="Summer Season";
+    break;
+
+    case 7:
+    case 8:
+    case 9:
+    document.getElementById("answer").innerText="Monsoon Season";
+    break;
+
+    case 10:
+    case 11:
+    document.getElementById("answer").innerText="Autumn Season";
+    break;
+
+    default:
+
+    document.getElementById("answer").innerText="Your number is wrong according to the months";
+
+}
+    }
+   
+    
+</script>
+
+</html>
