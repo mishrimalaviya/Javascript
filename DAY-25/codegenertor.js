@@ -50,7 +50,7 @@ function motivational() {
     document.getElementById("quo").innerHTML = `
     <div class=" d-flex justify-content-between " style="width=100% ; height:50% ; ">
 
-        <div class=" text-light" style="width:400px; height:60% ; border-radius: 0px 50px 50px 0px;  background-color: rgb(45, 82, 144);  ">
+        <div class=" text-light" style="width:400px; height:60% ; border-radius: 0px 50px 50px 0px;  background-color: #3C3D37;  ">
         <spam style="font-size: 35px;">Motivational Quote</spam><br>
             <h5 class="pt-2">${a[c].wr}</h5>
         </div>
@@ -61,7 +61,7 @@ function motivational() {
         </div>
     </div>
     
-    <div style=" border:5px solid rgb(45, 82, 144); border-right:none;border-top:none;border-bottom:none; height:50%" class="d-flex justify-content-center align-items-center p-2">
+    <div style=" border:5px solid #3C3D37; border-right:none;border-top:none;border-bottom:none; height:50%" class="d-flex justify-content-center align-items-center p-2">
         <center> <h1>"${a[c].qu}"</h1>
         
         </center>
@@ -119,7 +119,7 @@ function sad() {
     document.getElementById("quo").innerHTML = `
     <div class=" d-flex justify-content-between " style="width=100% ; height:50% ; ">
 
-        <div class=" text-light" style="width:400px; height:60% ; border-radius: 0px 50px 50px 0px;  background-color: rgb(85, 51, 119);  ">
+        <div class=" text-light" style="width:400px; height:60% ; border-radius: 0px 50px 50px 0px;  background-color: rgb(52, 51, 54);  ">
         <spam style="font-size: 35px;">Sad Quote</spam><br>
             <h5 class="pt-2">${b[x].wr}</h5>
         </div>
@@ -130,7 +130,7 @@ function sad() {
         </div>
     </div>
     
-    <div style=" border:5px solid rgb(85, 51, 119); border-right:none;border-top:none;border-bottom:none; height:50%" class="d-flex justify-content-center align-items-center p-2">
+    <div style=" border:5px solid rgb(52, 51, 54); border-right:none;border-top:none;border-bottom:none; height:50%" class="d-flex justify-content-center align-items-center p-2">
         <center> <h1>"${b[x].qu}"</h1>
         
         </center>
@@ -191,7 +191,7 @@ function happy() {
     document.getElementById("quo").innerHTML = `
     <div class=" d-flex justify-content-between " style="width=100% ; height:50% ; ">
 
-        <div class=" text-light" style="width:400px; height:60% ; border-radius: 0px 50px 50px 0px;  background-color: rgb(65, 51, 172)  ">
+        <div class=" text-light" style="width:400px; height:60% ; border-radius: 0px 50px 50px 0px;  background-color: #4A403A ">
         <spam style="font-size: 35px;">Happy Quote</spam><br>
             <h5 class="pt-2">${c[a].wr}</h5>
         </div>
@@ -202,7 +202,7 @@ function happy() {
         </div>
     </div>
     
-    <div style=" border:5px solid rgb(65, 51, 172); border-right:none;border-top:none;border-bottom:none; height:50%" class="d-flex justify-content-center align-items-center p-2">
+    <div style=" border:5px solid #4A403A; border-right:none;border-top:none;border-bottom:none; height:50%" class="d-flex justify-content-center align-items-center p-2">
         <center> <h1>"${c[a].qu}"</h1>
         
         </center>
